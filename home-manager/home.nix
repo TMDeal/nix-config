@@ -1,11 +1,5 @@
-{
-  inputs,
-  lib,
-  config,
-  pkgs,
-  ...
-}: {
-  imports = [];
+{ inputs, lib, config, pkgs, ... }: {
+  imports = [ ];
 
   home = {
     username = "trent";
